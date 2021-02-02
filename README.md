@@ -4,12 +4,12 @@ Liveness Command probe 설정
 ~~~
 nano exec-liveness.yaml
 ~~~
-
+![commandProbe01](https://user-images.githubusercontent.com/20763542/106618919-600dca80-65b3-11eb-9d80-a5cc1d9b896d.jpg)
 
 /tmp/healthy 파일이 존재하는지 확인하는 설정파일
 5초마다 해당 파일이 있는지 조회한다.
 Kubelet이 첫 체크하기 전에 기다리는 시간을 설정한다.
-
+![commandProbe02](https://user-images.githubusercontent.com/20763542/106618921-60a66100-65b3-11eb-8b22-04003d3d86ae.jpg)
 
 파일이 존재하지 않을 경우, 정상 작동에 문제가 있다고 판단되어
 kublet에 의해 자동으로 컨테이너가 재시작 된다.
