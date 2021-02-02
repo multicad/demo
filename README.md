@@ -18,7 +18,12 @@ kublet에 의해 자동으로 컨테이너가 재시작 된다.
 ~~~
 kubectl create –f exec-liveness.yaml
 ~~~
+![commandProbe03](https://user-images.githubusercontent.com/20763542/106618914-5edc9d80-65b3-11eb-9089-2b2ecc9934ba.jpg)
+
 Describe에서의 설정내용
 ~~~
 kubectl describe pod liveness-exec
 ~~~
+![commandProbe04](https://user-images.githubusercontent.com/20763542/106618916-5f753400-65b3-11eb-9d0a-30ccb363e5aa.jpg)
+
+![commandProbe05](https://user-images.githubusercontent.com/20763542/106618918-600dca80-65b3-11eb-9868-a71500c4afc6.jpg)
