@@ -1,4 +1,4 @@
-# demo
+# Self-healing (Liveness probe)
 
 Liveness Command probe 설정
 ~~~
