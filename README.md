@@ -4,8 +4,7 @@ Liveness Command probe 설정
 ~~~
 nano exec-liveness.yaml
 ~~~
-
-![commandProbe01](https://user-images.githubusercontent.com/20763542/106618919-600dca80-65b3-11eb-9d80-a5cc1d9b896d.jpg)
+![commandProbe01](https://user-images.githubusercontent.com/20763542/106622135-a153a980-65b6-11eb-83da-67ba79da9304.jpg)
 
 - /tmp/healthy 파일이 존재하는지 확인하는 설정파일
 - 5초마다 해당 파일이 있는지 조회한다.
